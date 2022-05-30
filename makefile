@@ -1,7 +1,7 @@
-all:main clean
+all:main 
 
 main:
-	g++ -o main main.cpp ; ./main 
+	g++ -o main main.cpp 
 
 clean: 
 	rm -f main
